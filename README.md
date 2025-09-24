@@ -38,6 +38,7 @@ Product/Store updates run at 04:32 AM IST`
 
 #### 1. Clone Repo
 git clone https://github.com/SominZex/etl_pipeline.git
+
 cd etl_pipeline
 
 ##### 2. Create Virtual Environment
@@ -47,7 +48,7 @@ pip install -r requirements.txt
 
 #### 3. Configure Database
 
-##### Update product_update.py and azure_db.py with your PostgreSQL connection details:
+##### Update product_update.py and update the Db credentials in your PostgreSQL connection details:
 
 DB_HOST = "localhost"
 DB_NAME = "your_db"
