@@ -73,7 +73,7 @@ crontab -e
 30 4 * * * /home/azureuser/etl/vmac/bin/python /home/azureuser/etl/etl_pip.py >> /home/azureuser/etl/etl_pip.log 2>&1
 
 ##### #Run product/store updates at 04:32 AM IST
-32 4 * * * /home/azureuser/etl/vmac/bin/python /home/azureuser/etl/update_products.py >> /home/azureuser/etl/update_products.log 2>&1
+32 4 * * * /home/azureuser/etl/vmac/bin/python /home/azureuser/etl/product_update.py >> /home/azureuser/etl/product_update.log 2>&1
 
 
 #### Verify:
