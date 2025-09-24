@@ -37,8 +37,8 @@ Product/Store updates run at 04:32 AM IST`
 ## 🛠️ Setup
 
 #### 1. Clone Repo
-git clone https://github.com/<your-username>/unified-etl.git
-cd unified-etl
+git clone https://github.com/SominZex/etl_pipeline.git
+cd etl_pipeline
 
 ##### 2. Create Virtual Environment
 python3 -m venv vmac
