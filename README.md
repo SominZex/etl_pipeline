@@ -1,6 +1,6 @@
 ## Unified ETL pipeline
 
-This project demonstrates a production-ready ETL pipeline that downloads sales data using an API, transform it, and stores it in both PostgreSQL and MySQL databases. The pipeline is scheduled to run automatically via cron every day.
+This project demonstrates a production-ready ETL pipeline that downloads sales data using an API from web server, transform the data, and stores it in both PostgreSQL and MySQL databases. The pipeline is scheduled to run automatically via cron every day.
 
 # How it Works
 
