@@ -112,7 +112,7 @@ class CSVDownloader:
 
 
 def main():
-    downloader = CSVDownloader(username="nssomin", password="nssomin")
+    downloader = CSVDownloader(username="user", password="psswd")
     result = downloader.download_yesterday_csv(order_type="online", output_dir="./downloads")
 
     if result:
